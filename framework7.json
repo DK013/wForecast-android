@@ -1,0 +1,38 @@
+{
+  "cwd": "D:\\Docs\\Personal\\Projects\\Android\\Projects\\wForecast",
+  "type": [
+    "cordova"
+  ],
+  "name": "wForecast",
+  "pkg": "com.westenets.wforecast",
+  "framework": "core",
+  "template": "blank",
+  "bundler": "webpack",
+  "cssPreProcessor": false,
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#2885b5",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
