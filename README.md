@@ -1,5 +1,7 @@
 # wForecast
 
+Android Client for [wForecast](http://weather.westenets.com)
+
 ## Framework7 CLI Options
 
 Framework7 app created with following options:
